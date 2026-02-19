@@ -1,0 +1,21 @@
+
+
+
+body {
+   a { color:orange; }
+    a:visited { color: lightgoldenrodyellow; }
+    a:hover { color: blue; }
+    a:active { color: violet; }
+
+  background-color: lightcyan;
+  color: mediumaquamarine;
+  font-family:'Courier New', Courier, monospace;
+  margin: 20px; 
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  .bordered-text {
+  border: 7px solid purple;
+  padding: 10px;
+}
+    }
