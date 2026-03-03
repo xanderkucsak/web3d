@@ -20,14 +20,14 @@ let facingX = 1;
 let facingY = 0;
 
 function preload() {
-  myModel = loadModel("/bburg.stl", true);
-  car = loadImage("/carart.png");
-  earth = loadImage("/earth.jpg");
+  myModel = loadModel("/web3d/project1/bburg.stl", true);
+  car = loadImage("/web3d/project1/carart.png");
+  earth = loadImage("/web3d/project1/earth.jpg");
   
   //other backgrounds
- //earth = loadImage("/lawn.jpg");
- //earth = loadImage("/googleearth.png");
-  tex = loadImage("/tex.jpg");
+ //earth = loadImage("/web3d/project1/lawn.jpg");
+ //earth = loadImage("/web3d/project1/googleearth.png");
+  tex = loadImage("/web3d/project1/tex.jpg");
 }
 
 function setup() {
