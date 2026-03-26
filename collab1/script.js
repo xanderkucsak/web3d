@@ -36,7 +36,7 @@ function init() {
 const backgroundTexture = textureLoader.load("climatechange.png");
 
     // Setup camera
-    camera = new THREE.PerspectiveCamera(60, 0.7, 1, 1000);
+    camera = new THREE.PerspectiveCamera(60, 0.6, 1, 1000);
     camera.position.set(400, 200, 0);
 
     // Setup controls
